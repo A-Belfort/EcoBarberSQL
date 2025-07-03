@@ -22,10 +22,6 @@ update cursos_conteudo
 set tipo = "video"
 where id_conteudo = 22;
 
-update solitacoes_coleta
-set `status` = "aguardando", observacoes = "pedido solicitado e no aguardo da coleta."
-where idSolitacoes = 15;
-
 delete from barbearias
 where id_barbearias = 2;
 
